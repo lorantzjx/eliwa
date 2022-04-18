@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<HEAD>
+    <TITLE>文本定时变动代码 </TITLE>
+    <style type="text/css">
+        #newslist {
+            background: #f8f8f8;
+            border: 1px solid silver;
+            padding: 1px;
+            height: 20px;
+            line-height: 20px;
+            width: 288px;
+        }
+
+        #contain {
+            font-size: 12px;
+            overflow: hidden;
+            list-style: none;
+            width: 288px;
+            height: 20px;
+            margin: 0px;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        #contain li {
+            height: 22px;
+            line-height: 22px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    </style>
+</HEAD>
+
+<BODY>
+    <div id="newslist">
+        <ul id="contain">
+            <li><a href="http://www.baidu.com" text-decoration="none">百度，世界最大的中文搜索引擎</a></li>
+            <li><a href="http://www.csdn.net">CSDN，中国最聚人气的IT技术社区</a></li>
+            <li><a href="https://www.jb51.net">脚本之家</a></li>
+            <li><a href="http://play.jb51.net">播放器</a></li>
+        </ul>
+    </div>
+    <SCRIPT> 
+        function xx() 
+        { var container = document.getElementById("contain"); container.appendChild(container.firstChild); } setInterval("xx()", 200); 
+    </SCRIPT>
+</BODY>
+
+</HTML>
