@@ -10,7 +10,7 @@ body{width:100%;min-height:100vh;vertical-align:baseline;word-wrap:break-word;co
 body,input,button,select,optgroup,option,textarea,blockquote,dd,dl,figure,form,pre,.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:"SF Pro SC","SF Pro Text","SF Pro Icons",PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 body,html{height:100%;margin:0;padding:0;border:0}
 a{color:#282a2d;outline:0!important;text-decoration:none}
-a:hover{text-decoration:none;color:#f1404b}
+a:hover{text-decoration:none;color:#f11e25}
 p{color:#1d232b;margin:0;white-space:normal;word-break:break-all} 
 
 /*--------------------------------------------------------------
@@ -165,8 +165,9 @@ a>i.sidebar-more{transform:scale(.8)}
 ## Font Size style
 --------------------------------------------------------------*/
 .text-ss{font-size:.45rem!important}
-.text-xs{font-size:.75rem!important}
-.text-sm{font-size:.875rem!important}
+.text-xxs{font-size:.9rem!important}
+.text-xs{font-size:.85rem!important}
+.text-sm{font-size:1.02rem!important}
 .text-md{font-size:1rem!important}
 .text-lg{font-size:1.125rem!important}
 .text-xl{font-size:1.375rem!important}
@@ -200,7 +201,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .url-card .url-goto-after{height:24px;border-top:1px solid rgba(136,136,136,.2)}
 .url-card .url-goto{position:absolute;bottom:0;left:0px;right:0}
 .url-card .card-body{padding:.938rem}
-.url-card .url-img{width:40px;height:40px;-webkit-box-flex:0;-ms-flex:none;flex:none;background:rgba(255, 255, 255, 0);overflow:hidden}
+.url-card .url-img{width:55px;height:55px;-webkit-box-flex:0;-ms-flex:none;flex:none;background:rgba(255, 255, 255, 0);overflow:hidden}
 .url-card .url-img>img{max-height:100%;vertical-align:unset}
 .url-card .max .url-img{width:60px;height:60px}
 .url-card .mini .url-img{width:25px;height:25px}
@@ -210,7 +211,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .url-card.down a.card:after{content:'\e604';position:absolute;display:inline-block;font-family:"iconfont";font-size:60px;color:#888;margin-left:10px;bottom:-10px;right:10px;opacity:.15}
 .url-card.down .mini a.card:after,.url-card.wechat .mini a.card:after{font-size:30px;margin-left:10px;bottom:-5px;right:10px}
 .url-card.down .max a.card:after,.url-card.wechat .max a.card:after{font-size:30px;bottom:25px}
-.url-card .mini a.togo,.url-card .default a.togo{position:absolute;top:20px;right:0;width:30px;height:30px;line-height:30px;opacity:.2;transition:opacity .3s} 
+.url-card .mini a.togo,.url-card .default a.togo{position:absolute;top:26px;right:0;width:38px;height:30px;line-height:30px;opacity:.2;transition:opacity .3s} 
 .url-card .mini a.togo{top:4px}
 .url-card .url-body:hover a.togo{opacity:1}
 .url-card .max a.togo{margin-left:auto}
